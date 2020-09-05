@@ -1,0 +1,92 @@
+/*CSS for heading navigation and footer of all the pages*/
+.navigation{
+	overflow: hidden;
+	position:fixed;
+	background-color: #a3c2c2;
+	top:0;
+	left:0;
+	right:0;
+
+}
+
+ul{
+	text-align: end;
+}
+.nav_text:hover{
+	padding: 9px 15px;
+	background-color:black;
+	color:white;
+	
+}
+.nav_text{
+	font-family:Arial;
+	font-weight: 600;
+	text-decoration:none;
+	font-size: large;
+	padding:0 25px;
+	color: #3A150D;
+}
+.logo{
+
+.logo:hover{
+
+}
+}
+h1{
+	padding-block-start: 50px;
+    padding-block-end: 50px;
+	text-align: center;
+	font-size: -webkit-xxx-large;
+	font-family: cursive;
+	color: #3A150D;
+}
+
+body{
+	margin-top:100;
+	background-color:#d9d9d9;
+}
+footer{
+	bottom:0;
+	left:0;
+	right:0;
+    background-color: #a3c2c2;
+	text-align: center;
+}
+/* Making Interactive for PC and Tab */
+@media screen and (max-width:1600px){
+.home_img{
+	align-items: center;
+
+}
+}
+
+/* Making Interactive for PC and Tab */
+@media screen and (max-width:640px){
+.navigation{
+	position:relative;
+}
+.nav_text{
+	display:none;
+}
+.home_img{
+	align-items: center;
+
+}
+}
+	
+}
+/*End of the CSS for heading navigation and footer of all the pages*/
+.articletext{
+	font-family: 'Lato', sans-serif;
+	background-color:aliceblue;
+a{
+  display: none;
+}
+
+.articles{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:space-between;
+	align-items:flex-start;
+	align-content:center;
+}
